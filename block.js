@@ -1,7 +1,7 @@
 const sha256 = require('crypto-js/sha256')
 
 class Block {
-    constructor(index = 0, previousHash = null, data = 'Genesis block', difficulty = 1) {
+    constructor(index = 0, previousHash = null, data = 'Centavus Block', difficulty = 1) {
         this.index = index
         this.previousHash = previousHash
         this.data = data
